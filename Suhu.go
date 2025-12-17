@@ -5,11 +5,8 @@ import "fmt"
 func main() {
 	var suhu float64
 	var hasil float64
-
 	var lanjut string
-
 	var pilihan int
-
 	var lanjutProgram bool
 	var konversiBerhasil bool
 	var valid bool
@@ -42,7 +39,6 @@ func main() {
 			fmt.Scan(&suhu)
 
 			if pilihan == 1 {
-				// Celcius ke Fahrenheit
 				hasil = (suhu * 9.0 / 5.0) + 32.0
 				konversiBerhasil = true
 
@@ -53,7 +49,6 @@ func main() {
 				fmt.Println("°F")
 
 			} else if pilihan == 2 {
-				// Fahrenheit ke Celcius
 				hasil = (suhu - 32.0) * 5.0 / 9.0
 				konversiBerhasil = true
 
@@ -64,7 +59,6 @@ func main() {
 				fmt.Println("°C")
 
 			} else if pilihan == 3 {
-				// Celcius ke Kelvin
 				hasil = suhu + 273.15
 				konversiBerhasil = true
 
@@ -75,7 +69,6 @@ func main() {
 				fmt.Println(" K")
 
 			} else if pilihan == 4 {
-				// Kelvin ke Celcius
 				hasil = suhu - 273.15
 				konversiBerhasil = true
 
@@ -86,7 +79,6 @@ func main() {
 				fmt.Println("°C")
 
 			} else if pilihan == 5 {
-				// Celcius ke Reamur
 				hasil = suhu * 4.0 / 5.0
 				konversiBerhasil = true
 
@@ -97,7 +89,6 @@ func main() {
 				fmt.Println("°R")
 
 			} else if pilihan == 6 {
-				// Reamur ke Celcius
 				hasil = suhu * 5.0 / 4.0
 				konversiBerhasil = true
 
@@ -143,3 +134,4 @@ func main() {
 	}
 	fmt.Println("\n=== PROGRAM SELESAI ===")
 }
+
