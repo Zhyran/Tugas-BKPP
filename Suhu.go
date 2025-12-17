@@ -1,15 +1,10 @@
 package main
-
 import "fmt"
-
 func main() {
 	var suhu float64
 	var hasil float64
-
 	var lanjut string
-
 	var pilihan int
-
 	var lanjutProgram bool
 	var konversiBerhasil bool
 	var valid bool
@@ -44,7 +39,6 @@ func main() {
 			if pilihan == 1 {
 				hasil = (suhu * 9.0 / 5.0) + 32.0
 				konversiBerhasil = true
-
 				fmt.Print("HASIL KONVERSI: ")
 				fmt.Print(suhu)
 				fmt.Print("°C = ")
@@ -54,7 +48,6 @@ func main() {
 			} else if pilihan == 2 {
 				hasil = (suhu - 32.0) * 5.0 / 9.0
 				konversiBerhasil = true
-
 				fmt.Print("HASIL KONVERSI: ")
 				fmt.Print(suhu)
 				fmt.Print("°F = ")
@@ -64,7 +57,6 @@ func main() {
 			} else if pilihan == 3 {
 				hasil = suhu + 273.15
 				konversiBerhasil = true
-
 				fmt.Print("HASIL KONVERSI: ")
 				fmt.Print(suhu)
 				fmt.Print("°C = ")
@@ -74,7 +66,6 @@ func main() {
 			} else if pilihan == 4 {
 				hasil = suhu - 273.15
 				konversiBerhasil = true
-
 				fmt.Print("HASIL KONVERSI: ")
 				fmt.Print(suhu)
 				fmt.Print(" K = ")
@@ -84,7 +75,6 @@ func main() {
 			} else if pilihan == 5 {
 				hasil = suhu * 4.0 / 5.0
 				konversiBerhasil = true
-
 				fmt.Print("HASIL KONVERSI: ")
 				fmt.Print(suhu)
 				fmt.Print("°C = ")
@@ -94,7 +84,6 @@ func main() {
 			} else if pilihan == 6 {
 				hasil = suhu * 5.0 / 4.0
 				konversiBerhasil = true
-
 				fmt.Print("HASIL KONVERSI: ")
 				fmt.Print(suhu)
 				fmt.Print("°R = ")
@@ -137,3 +126,4 @@ func main() {
 	}
 	fmt.Println("\n=== PROGRAM SELESAI ===")
 }
+
