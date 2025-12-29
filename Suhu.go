@@ -10,8 +10,6 @@ func main() {
 	var valid bool
 
 	lanjutProgram = true
-	konversiBerhasil = false
-	valid = false
 
 	fmt.Println("=== PROGRAM KONVERSI SUHU ===")
 
@@ -126,4 +124,5 @@ func main() {
 	}
 	fmt.Println("\n=== PROGRAM SELESAI ===")
 }
+
 
